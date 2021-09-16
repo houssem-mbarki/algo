@@ -1,0 +1,16 @@
+ALGORITHM chaine
+VAR
+    c:char
+ NBC:integer = 0
+ NBM:integer = 0
+ NBV:integer = 0
+BEGIN
+    ecrire:("un caracter")
+ lire:(c)
+ while:(c<>)do 
+ NBC:=NBC+1;
+ if(c="A" or c="E" or c="I" or c="U" or c="Y" or c="O") then
+ NBV:=NBV+1
+ (c=" ")then
+ NBM:=NBM+1
+END
